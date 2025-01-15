@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Find your perfect companion through our pet adoption platform. Browse available pets and give a loving home to an animal in need.">
+    <meta name="keywords" content="pet adoption, adopt a pet, animal shelter, rescue pets, dogs, cats">
+    <title>Pet Adoption Center</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Pet Adoption Center</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#available-pets">Available Pets</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home">
+        <h2>Find Your New Best Friend</h2>
+        <p>We connect loving families with pets in need of a home.</p>
+        <img src="pets.jpg" alt="Happy pets ready for adoption" width="1000" height="700">
+    </section>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Our mission is to rescue and rehome pets, ensuring they find loving and caring families.</p>
+    </section>
+    <section id="available-pets">
+        <h2>Available Pets</h2>
+        <div class="pet-card">
+            <img src="dog.jpg" alt="Adoptable dog">
+            <h3>Buddy</h3>
+            <p>Breed: Labrador Retriever</p>
+            <p>Age: 1 years</p>
+            <p>$200 per bouquet</p>
+
+            <button>Adopt Me</button>
+        </div>
+        <div class="pet-card">
+            <img src="rabbit.jpg" alt="Adoptable Rabbit">
+            <h3>Prodrse</h3>
+            <p>Breed: Daibles</p>
+            <p>Age: 1 year</p>
+            <p>$300 per bouquet</p>
+
+            <button>Adopt Me</button>
+        </div>
+
+        <div class="pet-card">
+            <img src="Penguin.jpg" alt="Adoptable Panguin" height="200">
+            <h3>Yiorseo</h3>
+            <p>Breed: Nortion</p>
+            <p>Age: 8 Month</p>
+            <p>$800 per bouquet</p>
+            <button>Adopt Me</button>
+         </div>
+         
+         <div class="pet-card">
+            <img src="squirreljpg.jpg" alt="Adoptable Squirrel" height="200">
+            <h3>Trioth</h3>
+            <p>Breed: Frofita</p>
+            <p>Age: 6 Month</p>
+            <p>$100 per bouquet</p>
+            <button>Adopt Me</button>
+        </div>
+        
+
+         <div class="pet-card">
+            <img src="cat.jpg" alt="Adoptable cat">
+            <h3>Whiskers</h3>
+            <p>Breed: Siamese</p>
+            <p>Age: 1 year</p>
+            <p>$500 per bouquet</p>
+            <button>Adopt Me</button>
+        </div>
+
+
+        <!-- Add more pet cards as needed -->
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+   
+</body>
+</html>
